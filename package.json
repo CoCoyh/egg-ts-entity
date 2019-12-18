@@ -2,6 +2,8 @@
   "name": "egg-ts-entity",
   "version": "1.0.0",
   "description": "数据库操作实体",
+  "main": "index.js",
+  "types": "index.d.ts",
   "eggPlugin": {
     "name": "tsEntity"
   },
@@ -10,7 +12,9 @@
     "eggPlugin",
     "egg-plugin"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "tern": "^0.24.2"
+  },
   "devDependencies": {
     "autod": "^3.0.1",
     "autod-egg": "^1.1.0",
@@ -44,10 +48,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-ts-entity.git"
+    "url": "git+https://github.com/CoCoyh/egg-ts-entity.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/CoCoyh/egg-ts-entity/issues"
   },
   "homepage": "https://github.com/CoCoyh/egg-ts-entity#readme",
   "author": "coco",
