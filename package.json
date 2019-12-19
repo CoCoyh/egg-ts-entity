@@ -1,6 +1,6 @@
 {
   "name": "egg-ts-entity",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "数据库操作实体",
   "main": "index.js",
   "types": "index.d.ts",
@@ -13,7 +13,7 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "tern": "^0.24.2"
+    "egg-ts-router": "^1.0.4"
   },
   "devDependencies": {
     "autod": "^3.0.1",
