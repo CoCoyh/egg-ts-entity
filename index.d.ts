@@ -1,17 +1,5 @@
-// Type definitions for index.js
-// Project: [LIBRARY_URL_HERE] 
-// Definitions by: [YOUR_NAME_HERE] <[YOUR_URL_HERE]> 
-// Definitions: https://github.com/borisyankov/DefinitelyTyped
-
-/**
- * 
- */
-declare interface BaseEntity {
-		
-	/**
-	 * 
-	 * @return  
-	 */
-	new (): BaseEntity;
+export declare abstract class BaseEntity {
+  id: number;
+  createTime: Date;
+  updateTime: Date;
 }
-
