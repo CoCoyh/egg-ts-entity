@@ -1,6 +1,6 @@
 {
   "name": "egg-ts-entity",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "数据库操作实体",
   "main": "index.js",
   "types": "index.d.ts",
@@ -38,10 +38,8 @@
     "autod": "autod"
   },
   "files": [
-    "app.js",
-    "agent.js",
-    "config",
-    "app"
+    "index.js",
+    "index.d.ts"
   ],
   "ci": {
     "version": "8, 10"
